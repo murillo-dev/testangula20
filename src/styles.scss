@@ -1,4 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+    font-family: 'SpaceAge';
+    src: url("../src/assets/font/space\ age.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    font-family: 'SpaceAge', Roboto, "Helvetica Neue", sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
